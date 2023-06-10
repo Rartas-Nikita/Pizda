@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Harry Potter (Russian Version of Gfdtk)';
+    src: url(/Fonts/harrypotterrussianversionofgfdtk.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    padding-left: 0;
+}
+
+ul li:not(:first-child) {
+    padding-left: 100px;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color: #47297B;
+    position: sticky;
+    top: 0;
+}
+
+.header__inner {
+    margin: 0;
+}
+
+
+.logo {
+    margin-left: 309px;
+    margin-right: 148px;
+
+}
+
+.logo__img {
+    margin-top: -50px;
+}
+
+.logo:hover {
+    padding-top: 50px;
+    transition: all .4s;
+
+}
+
+.logo:not(hover) {
+    transition: all .4s;
+}
+
+.menu {
+    align-items: center;
+    margin: 0;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    text-align: center;
+}
+
+.menu__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFD93D;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    border-bottom: solid 2px #FFD93D;
+    border-radius: 1px;
+}
+
+.header__button {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+
+.header__button-contact {
+    cursor: pointer;
+    background: #FFD93D;
+    border-radius: 10px;
+    width: 275px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    padding: 0;
+}
+
+.main {
+    background-image: url(../image/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1005px;
+}
+
+.main__page {
+    display: flex;
+    align-items: center;
+    padding-top: 237px;
+}
+
+.main__text {
+    width: 1165px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.main__name {
+    text-align: center;
+    font-family: 'Harry Potter (Russian Version of Gfdtk)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 240px;
+    line-height: 276px;
+    background: linear-gradient(100.69deg, #F7CC02 0%, #FEA717 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    padding-top: 106px;
+}
+
+.main__arrow {
+    padding-top: 228px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts {
+    background-color: #FFFAE7;
+}
+
+.contacts__inner {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 84px;
+    color: #47297B;
+    width: 888px;
+    margin: 0 auto;
+}
+
+.contacts__info {
+    display: flex;
+}
+
+.contacts__column{
+    width: 570px;
+    margin-right: 20px;
+    
+}
+
+.contacts__map {
+    margin-right: 297px;
+    margin-bottom: 23px;
+}
+
+.contacts__list {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.contacts__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-left: 15px
+}
+
+.contacts__form {
+    width: 570px;
+    background: #FFE863;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: 699px;
+}
